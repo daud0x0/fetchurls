@@ -9,5 +9,5 @@ while read url; do
 	filename=stdout/$filename
 
 	curl -sk $url -o $filename 2> /dev/null
-	echo "$url $filename" >> stdout/index.txt
+	echo "$url $filename" | tee -a stdout/index.txt
 done	
