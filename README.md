@@ -1,5 +1,4 @@
 # fetchurls
-fetch urls from stdin
 ---
 ## Usage:
 	$ git clone https://github.com/daud0x0/fetchurls.git
